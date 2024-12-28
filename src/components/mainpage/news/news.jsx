@@ -1,7 +1,7 @@
 import React from 'react'
-import './footer.css'
+import './news.css'
 
-export default function Footer() {
+export default function News() {
   return (
     <div>
       

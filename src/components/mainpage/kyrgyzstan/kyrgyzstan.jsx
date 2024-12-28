@@ -1,7 +1,7 @@
 import React from 'react'
-import './header.css'
+import './kyrgyzstan.css'
 
-export default function Header() {
+export default function Kyrgyzstan() {
   return (
     <div>
       

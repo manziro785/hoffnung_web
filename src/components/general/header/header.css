@@ -1,0 +1,112 @@
+header {
+    background-color: #233D70;
+
+}
+
+.container_header {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-item {
+    position: relative;
+    font-size: 14px;
+    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.menu-link {
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.menu-link:hover {
+    color: #bbbcbe;
+}
+
+.menu-link img {
+    margin-bottom: 2px;
+    margin-left: 3px;
+}
+
+.submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #1c3460;
+    list-style: none;
+    padding: 5px 0;
+    margin: 0;
+    opacity: 0;
+    visibility: hidden;
+    min-width: 130px;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.submenu li {
+    margin: 0;
+}
+
+.submenu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    white-space: nowrap;
+}
+
+.submenu li a:hover {
+    background-color: #2a4d88;
+}
+
+.menu-item.dropdown:hover .submenu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.btn_contact a {
+    font-size: 16px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    background-color: #0B2251;
+    padding: 10px 20px;
+    border: 2px solid #071839;
+    transition: all 0.3s ease;
+}
+
+.btn_contact a:hover {
+    background-color: #091c43;
+}
+
+.btn_contact img {
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #ECECEC;
+}

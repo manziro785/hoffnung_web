@@ -1,17 +1,24 @@
 import './mainPage.css'
-import Header from '../../components/header/header'
-import Banner from '../../components/banner/banner'
-import Footer from '../../components/footer/footer'
-import Aboutus from '../../components/aboutus/aboutus'
+import TemplatePage from '../../components/template/template'
+import Banner from '../../components/mainpage/banner/banner'
+import Partners from '../../components/mainpage/partners/partners'
+import Joinus from '../../components/mainpage/joinus/joinus'
+import Hopegive from '../../components/mainpage/hopegive/hopegive'
+import Kyrgyzstan from '../../components/mainpage/kyrgyzstan/kyrgyzstan'
+import News from '../../components/mainpage/news/news'
 
 export default function mainPage() {
   return (
     <div>
-      <Header/>
+      <TemplatePage>
       main
       <Banner/>
-      <Aboutus/>
-      <Footer/>
+      <Partners/>
+      <Joinus/>
+      <Hopegive/>
+      <Kyrgyzstan/>
+      <News/>
+      </TemplatePage>
     </div>
   )
 }
